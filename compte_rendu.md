@@ -28,10 +28,8 @@ Lors du premier envoi sur la Pull Request, le workflow est passé au **rouge** �
 J'ai corrigé l'erreur en remettant la bonne opération :
 ```python
 return a + b
-J'ai corrigé l'erreur en remettant la bonne opération :
-```python
-return a + b
 ```
+
 Après avoir poussé ce correctif sur la même branche, GitHub Actions a relancé les tests et la Pull Request est passée au **vert**, ce qui m'a permis de la fusionner proprement dans `main`.
 
 ## 5. Test en local vs CI sur GitHub
