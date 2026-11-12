@@ -40,11 +40,11 @@ Après avoir poussé ce correctif sur la même branche, GitHub Actions a relanc�
 ## 6. Captures d'écran
 
 ### Arborescence du dépôt sur la branche `main`
-![Arborescence du projet](Capture%20d%27%C3%A9cran%202026-11-12%20113242.png)
+![Arborescence du projet](img/Capture%20d%27%C3%A9cran%202026-11-12%20113242.png)
 
 ### Pull Request : contrôle rouge (échec du test)
-![Contrôle rouge](Capture%20d%27%C3%A9cran%202026-11-12%20112803.png)
+![Contrôle rouge](img/Capture%20d%27%C3%A9cran%202026-11-12%20112803.png)
 
 ### Pull Request : contrôle vert (tests validés après correction)
-![Contrôle vert](Capture%20d%27%C3%A9cran%202026-11-12%20113032.png)
+![Contrôle vert](img/Capture%20d%27%C3%A9cran%202026-11-12%20113032.png)
 
