@@ -16,3 +16,10 @@ htmlcov/
 .vscode/
 .idea/
 .DS_Store
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
