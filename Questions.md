@@ -21,8 +21,3 @@ Le premier push sur `main` déclenche automatiquement la CI parce que le workflo
 
 Le test détecte la régression parce que la fonction `add` a été modifiée et que `pytest` compare le résultat attendu à celui réellement obtenu, ce qui fait échouer l’assertion ; le journal montre en détail le nom du test, la valeur attendue, la valeur obtenue et la pile d’exécution, alors que l’icône rouge ne donne que le signal global de l’échec.
 
-## 8. Bilan et compte rendu
-
-Le dépôt GitHub utilisé est `TP_GitHub-Projects_CI-CD` et son URL est `https://github.com/youssefsaidi-ops/TP_GitHub-Projects_CI-CD`, la branche principale utilisée est `main`, l’arborescence du projet est visible dans le dépôt GitHub, la pull request permet de comparer une branche de travail avec `main` pour vérifier le contrôle rouge puis le contrôle vert, le test en échec est `test_add` car la fonction `add` a été remplacée par une soustraction, et la correction a consisté à rétablir `return a + b` ; un test exécuté localement sert à vérifier le code sur son ordinateur, tandis qu’une CI exécutée par GitHub automatise et standardise cette vérification pour tout le monde sur une machine propre et reproductible.
-
-**Conclusion :** Git conserve l’historique des changements ; GitHub héberge le dépôt et facilite le travail par pull request ; pytest exécute les tests ; GitHub Actions automatise leur exécution.
